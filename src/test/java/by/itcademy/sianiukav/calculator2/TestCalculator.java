@@ -6,11 +6,11 @@ import org.junit.jupiter.api.*;
 
 public class TestCalculator {
 
-
+@Test
     public void testAdd () {
         Calculator calculator = new Calculator();
-        double result = calculator.sum(2, 6);
-        Assertions.assertEquals(5,result);
+        double result = calculator.sum(2.0, 6.0);
+        Assertions.assertEquals(8,result,0.001);
 
     }
 }
