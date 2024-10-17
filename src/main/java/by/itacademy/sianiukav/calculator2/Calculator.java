@@ -1,7 +1,7 @@
 package by.itacademy.sianiukav.calculator2;
 
 public class Calculator {
-    public int sum(int a, int b) {
+    public double sum(double a, double b) {
         return a+b;
     }
 }
